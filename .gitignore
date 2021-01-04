@@ -128,3 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 Reviews.csv
+vecs.tsv
+meta.tsv
