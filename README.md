@@ -11,17 +11,29 @@ which can be found [here](https://www.kaggle.com/snap/amazon-fine-food-reviews)
 The objective of the project was to predict whether the review given was a positive one or a negative one. The dataset contains the user rating from 1-5. Ratings above 3 are taken as positive examples (label=1) and the rest are taken as negative examples (label=0).
 
 # Model used
-<img src="assets/model.png" height=60% width=40%>
-The network uses as an embedding layer of size 64. This is done to represent words in a 64 dimensional space where semantically closer words have a smaller cosine distance. These embeddings are trained by back propagation
 
-The network is then followed by a bidirectional LSTM. LSTM's have been chosen to help carry out information in sequences from one end to another end. The cell state in the LSTM layer helps in achieving this.
+The network uses as an embedding layer of size 64. This is done to represent words in a 64 dimensional space where semantically closer words have a smaller cosine distance. These embeddings are trained by back propagation  
 
-The network is then followed by a few dense layers with the final one having a sigmoid activation.
+The network is then followed by a bidirectional LSTM. LSTM's have been chosen to help carry out information in sequences from one end to another end. The cell state in the LSTM layer helps in achieving this.  
 
-(insert model image here)
+<img src="assets/model.png" height=60% width=40%>  
+  
+  
+The network is then followed by a few dense layers with the final one having a sigmoid activation.  
 
 # Results
 The model gives a result of **95% training accuracy** and **91% testing accuracy**
+
+# Visualizing Embeddings
+Running the notebook produces two files called `vecs.tsv` and `meta.tsv` which can be uploaded to [tensorflow projector](projector.tensorflow.org).
+Visualizing the embeddings for the vocabulary gives us these:  
+  
+<img src="assets/negative-words-embedding.png" height=60% width=60%>  
+  Negative words like "disgusting","dissappointed","disturbing","terrible","vomit" and "gross" have been grouped together in the space as they are semantically similar.
+
+<img src="assets/positive-words-embedding.png" height=60% width=60%>
+
+Similarly positive words such as "exceptional","exciting","excellant","delicious" and "yummy" have been grouped together.  
 
 # Instructions 📝
 - Clone the repository
