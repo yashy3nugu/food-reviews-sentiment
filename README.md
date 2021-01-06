@@ -24,7 +24,7 @@ The model gives a result of **95% training accuracy** and **91% testing accuracy
 
 # Instructions 📝
 - Clone the repository
-- Download the dataset from [here](https://www.kaggle.com/spandan2/cats-faces-64x64-for-generative-models) into the same directory as the cloned repo
+- Download the dataset from [here](https://www.kaggle.com/snap/amazon-fine-food-reviews) into the same directory as the cloned repo
 - Open Anaconda prompt and cd into the repo
 - Run [`conda env create -f environment.yml`](#code)
 - Run [`jupyter notebook`](#code)
