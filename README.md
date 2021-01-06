@@ -11,6 +11,7 @@ which can be found [here](https://www.kaggle.com/snap/amazon-fine-food-reviews)
 The objective of the project was to predict whether the review given was a positive one or a negative one. The dataset contains the user rating from 1-5. Ratings above 3 are taken as positive examples (label=1) and the rest are taken as negative examples (label=0).
 
 # Model used
+<img src="assets/model.png" height=60% width=40%>
 The network uses as an embedding layer of size 64. This is done to represent words in a 64 dimensional space where semantically closer words have a smaller cosine distance. These embeddings are trained by back propagation
 
 The network is then followed by a bidirectional LSTM. LSTM's have been chosen to help carry out information in sequences from one end to another end. The cell state in the LSTM layer helps in achieving this.
