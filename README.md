@@ -21,3 +21,12 @@ The network is then followed by a few dense layers with the final one having a s
 
 # Results
 The model gives a result of **95% training accuracy** and **91% testing accuracy**
+
+# Instructions 📝
+- Clone the repository
+- Download the dataset from [here](https://www.kaggle.com/spandan2/cats-faces-64x64-for-generative-models) into the same directory as the cloned repo
+- Open Anaconda prompt and cd into the repo
+- Run [`conda env create -f environment.yml`](#code)
+- Run [`jupyter notebook`](#code)
+- Run the notebook LSTM.ipynb
+- Training for 10 epochs gives the desired accuracy.
