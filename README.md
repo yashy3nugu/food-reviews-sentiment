@@ -44,6 +44,14 @@ Similarly positive words such as "exceptional","exciting","excellant","delicious
 - Run the notebook LSTM.ipynb
 - Training for 10 epochs gives the desired accuracy.
 
+# Libraries used
+- [NumPy](numpy.org)
+- [Tensorflow](www.tensorflow.org)
+- [Pandas](pandas.pydata.org)
+- [Keras](keras.io)
+- [scikit-learn](scikit-learn.org)
+
+
 # Acknowledgments
 - Andrew NG's sequence models course on Coursera  
 https://www.coursera.org/learn/nlp-sequence-models
