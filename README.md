@@ -1,13 +1,13 @@
 # Food Reviews 🍞 🍔
 An attempt to predict the sentiment of a food review from text using a sequence model
 
-# Dataset used
+# Dataset used 
 The project uses the Amazon fine food reviews dataset which is available on Kaggle
 which can be found [here](https://www.kaggle.com/snap/amazon-fine-food-reviews)
   
 ![](dataset.png)
 
-# Objective
+# Objective 🎯
 The objective of the project was to predict whether the review given was a positive one or a negative one. The dataset contains the user rating from 1-5. Ratings above 3 are taken as positive examples (label=1) and the rest are taken as negative examples (label=0).
 
 # Model used
@@ -31,3 +31,10 @@ The model gives a result of **95% training accuracy** and **91% testing accuracy
 - Run [`jupyter notebook`](#code)
 - Run the notebook LSTM.ipynb
 - Training for 10 epochs gives the desired accuracy.
+
+# Acknowledgments
+- Andrew NG's sequence models course on Coursera  
+https://www.coursera.org/learn/nlp-sequence-models
+
+- Tensorflow tutorial for word embeddings  
+https://www.tensorflow.org/tutorials/text/word_embeddings
