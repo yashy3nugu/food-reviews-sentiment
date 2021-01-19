@@ -8,12 +8,12 @@ which can be found [here](https://www.kaggle.com/snap/amazon-fine-food-reviews)
 A few examples from the dataset can be seen below:
 
 #### Positive Examples:
-- <p style="font-size: 0.5rem">Great taffy, Great taffy at a great price.  There was a wide assortment of yummy taffy.  Delivery was very quick.  If your a taffy lover, this is a deal.</p>
-- <p style="font-size: 0.5rem">Great Irish oatmeal for those in a hurry!,"Instant oatmeal can become soggy the minute the water hits the bowl. McCann's Instant Oatmeal holds its texture, has excellent flavor</p>
+- <p style="font-size: 0.5rem">"Great taffy, Great taffy at a great price.  There was a wide assortment of yummy taffy.  Delivery was very quick.  If your a taffy lover, this is a deal."</p>
+- <p style="font-size: 0.5rem">"Great Irish oatmeal for those in a hurry!,"Instant oatmeal can become soggy the minute the water hits the bowl. McCann's Instant Oatmeal holds its texture, has excellent flavor"</p>
 
 #### Negative Examples:
-- <p style="font-size: 0.5rem">Furniture Polish Taste,"Terrible! Artificial lemon taste, like Pledge Lemon Furniture Polish. Don't do this to yourself. Just use plain flake salt and some fresh grated lemon zest."</p>
-- <p style="font-size: 0.5rem">I bought this to help me fall asleep and it works although it tastes and smell really bad. Make sure to put this in some sort of a glass jar to prevent your kitchen from stinking.</p>
+- <p style="font-size: 0.5rem">"Furniture Polish Taste,"Terrible! Artificial lemon taste, like Pledge Lemon Furniture Polish. Don't do this to yourself. Just use plain flake salt and some fresh grated lemon zest."</p>
+- <p style="font-size: 0.5rem">"I bought this to help me fall asleep and it works although it tastes and smell really bad. Make sure to put this in some sort of a glass jar to prevent your kitchen from stinking."</p>
 
 
 # Objective 🎯
@@ -48,8 +48,9 @@ Similarly positive words such as "exceptional","exciting","excellant","delicious
 - Clone the repository
 - Download the dataset from [here](https://www.kaggle.com/snap/amazon-fine-food-reviews) into the same directory as the cloned repo
 - Open Anaconda prompt and cd into the repo
-- Run [`conda env create -f environment.yml`](#code)
-- Run [`jupyter notebook`](#code)
+- Run `conda env create -f environment.yml`
+- Run `conda activate tensorflow-cpu`
+- Run `jupyter notebook`
 - Run the notebook LSTM.ipynb
 - Training for 10 epochs gives the desired accuracy.
 
