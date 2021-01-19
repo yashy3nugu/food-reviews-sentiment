@@ -34,15 +34,18 @@ The network is then followed by a few dense layers with the final one having a s
 The model gives a result of **95% training accuracy** and **91% testing accuracy**
 
 # Visualizing Embeddings
-Running the notebook produces two files called `vecs.tsv` and `meta.tsv` which can be uploaded to [tensorflow projector](projector.tensorflow.org).
+The word embeddings for the words in the vocabulary have been trained from scratch.  
+Running the notebook produces two files called `vecs.tsv` and `meta.tsv` which are the files containing the embedding vectors and their metadata respectively. These can be uploaded to [tensorflow projector](projector.tensorflow.org).  
 Visualizing the embeddings for the vocabulary gives us these:  
   
 <img src="assets/negative-words-embedding.png" height=60% width=60%>  
-  Negative words like "disgusting","dissappointed","disturbing","terrible","vomit" and "gross" have been grouped together in the space as they are semantically similar.
+  Negative words like "disgusting", "dissappointed", "disturbing", "terrible", "yuck" and "unacceptable" have been grouped together in the space as they are semantically similar.
 
 <img src="assets/positive-words-embedding.png" height=60% width=60%>
 
-Similarly positive words such as "exceptional","exciting","excellant","delicious" and "yummy" have been grouped together.  
+Similarly positive words such as "exceptional", "wonderful", "divine", "pleased" and "bravo" have been grouped together.  
+
+Also by observing the visualization we find that positive and negative words are in opposite sides, hence we can assume safely that the semantics have been captured
 
 # Instructions 📝
 - Clone the repository
