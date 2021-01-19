@@ -1,11 +1,20 @@
-# Food Reviews 🍞 🍔
+# Food Reviews-Sentiment
 An attempt to predict the sentiment of a food review from text using a sequence model
 
 # Dataset used 
 The project uses the Amazon fine food reviews dataset which is available on Kaggle
 which can be found [here](https://www.kaggle.com/snap/amazon-fine-food-reviews)
   
-![](dataset.png)
+A few examples from the dataset can be seen below:
+
+#### Positive Examples:
+- <p style="font-size: 0.5rem">Great taffy, Great taffy at a great price.  There was a wide assortment of yummy taffy.  Delivery was very quick.  If your a taffy lover, this is a deal.</p>
+- <p style="font-size: 0.5rem">Great Irish oatmeal for those in a hurry!,"Instant oatmeal can become soggy the minute the water hits the bowl. McCann's Instant Oatmeal holds its texture, has excellent flavor</p>
+
+#### Negative Examples:
+- <p style="font-size: 0.5rem">Furniture Polish Taste,"Terrible! Artificial lemon taste, like Pledge Lemon Furniture Polish. Don't do this to yourself. Just use plain flake salt and some fresh grated lemon zest."</p>
+- <p style="font-size: 0.5rem">I bought this to help me fall asleep and it works although it tastes and smell really bad. Make sure to put this in some sort of a glass jar to prevent your kitchen from stinking.</p>
+
 
 # Objective 🎯
 The objective of the project was to predict whether the review given was a positive one or a negative one. The dataset contains the user rating from 1-5. Ratings above 3 are taken as positive examples (label=1) and the rest are taken as negative examples (label=0).
