@@ -21,7 +21,7 @@ The objective of the project was to predict whether the review given was a posit
 
 # Model used
 
-The network uses as an embedding layer of size 64. This is done to represent words in a 64 dimensional space where semantically closer words have a smaller cosine distance. These embeddings are trained by back propagation  
+The network uses as an embedding layer where of 64 units for each word. This is done to represent words in a 64 dimensional space where semantically closer words have a smaller cosine distance. These embeddings are trained by back propagation  
 
 The network is then followed by a bidirectional LSTM. LSTM's have been chosen to help carry out information in sequences from one end to another end. The cell state in the LSTM layer helps in achieving this.  
 
@@ -31,7 +31,7 @@ The network is then followed by a bidirectional LSTM. LSTM's have been chosen to
 The network is then followed by a few dense layers with the final one having a sigmoid activation.  
 
 # Results
-The model gives a result of **95% training accuracy** and **91% testing accuracy**
+The model gives a result of **94% training accuracy** and **91% testing accuracy**
 
 # Visualizing Embeddings
 The word embeddings for the words in the vocabulary have been trained from scratch.  
