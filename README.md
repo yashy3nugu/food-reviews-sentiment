@@ -52,8 +52,9 @@ Also by observing the visualization we find that positive and negative words are
 - Download the dataset from [here](https://www.kaggle.com/snap/amazon-fine-food-reviews) into the same directory as the cloned repo
 - Open Anaconda prompt and cd into the repo
 - Run `conda env create -f environment.yml`
-- Run `conda activate tensorflow-cpu`
-- Run `jupyter notebook`
+- Run `python -m ipykernel install --user --name=sentiment-analysis` to list it in the jupyter notebook's kernels. (Run `conda install -c anaconda ipykernel` in case ipykernel not installed) 
+- Run `conda activate sentiment-analysis`
+- Run `jupyter notebook` and make sure you are in the kernel 'sentiment-analysis'
 - Run the notebook LSTM.ipynb
 - Training for 10 epochs gives the desired accuracy.
 
